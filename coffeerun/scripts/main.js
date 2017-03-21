@@ -24,5 +24,6 @@
     });
 
     formHandler.addInputHandler(Validation.isCompanyEmail);
+    formHandler.addDecafHandler(Validation.isDecaf);
 
 })(window);
